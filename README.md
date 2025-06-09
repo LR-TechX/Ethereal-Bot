@@ -1,2 +1,3 @@
-# Ethereal-Bot
-Python version 13.25
+# Ethereal Bot 🤖
+Telegram bot for automating user registration and payment verification.
+Built with Python & python-telegram-bot.
