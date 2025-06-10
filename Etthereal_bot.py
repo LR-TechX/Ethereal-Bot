@@ -1,3 +1,6 @@
+from keep_alive import keep_alive
+
+keep_alive()
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, InputMediaPhoto
 from telegram.ext import (
     Updater,
