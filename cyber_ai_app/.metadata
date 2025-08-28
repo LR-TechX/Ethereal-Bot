@@ -1,0 +1,3 @@
+# This placeholder file allows CI to run `flutter create .` safely.
+# On developer machines, you can regenerate iOS/Android platform folders with:
+#   flutter create .
