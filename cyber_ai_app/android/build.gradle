@@ -1,4 +1,5 @@
-// Root-level build.gradle (project/build.gradle)
+// File: android/build.gradle (Project-level)
+
 buildscript {
     ext.kotlin_version = '1.9.24'
     repositories {
@@ -18,13 +19,14 @@ allprojects {
     }
 }
 
+// Define build output directories
 rootProject.buildDir = '../build'
-
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
     project.evaluationDependsOn(':app')
 }
 
+// Clean task
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
